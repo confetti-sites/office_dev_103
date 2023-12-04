@@ -1,7 +1,17 @@
 @php
     /** @var \Confetti\Helpers\HasMapInterface $parent */
-    $footer = on($parent)
+    $footer = section('footer')
 @endphp
+
+
+
+
+
+
+
+
+
+
 
 <footer class="bg-white shadow dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
